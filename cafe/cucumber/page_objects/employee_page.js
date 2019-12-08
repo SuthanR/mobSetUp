@@ -1,5 +1,7 @@
 'use strict'
-var CafePage = function() {
+const chai = require('chai').use(require('chai-as-promised'));
+const expect = chai.expect;
+module.exports = function() {
 
     this.get = function () {
         browser.get('http://cafetownsend-angular-rails.herokuapp.com/login');
@@ -15,6 +17,7 @@ var CafePage = function() {
 
     this.clickGo = function () {
         element(by.buttonText('Login')).click()
+        browser.sleep(300)
 
     }
 
@@ -34,7 +37,13 @@ var CafePage = function() {
     };
 
     this.enterEmail = function (value) {
+        element(by.model('selectedEmployee.email')).clear();
         element(by.model('selectedEmployee.email')).sendKeys(value);
+
+    };
+
+    this.select = function() {
+        element.all(by.css('ul#employee-list>li')).get(0).click();
 
     };
 
@@ -42,5 +51,22 @@ var CafePage = function() {
         element(by.buttonText('Add')).click()
 
     };
+
+    this.clickUpdate = function () {
+        element(by.buttonText('Update')).click()
+    };
+    this.edit = function () {
+        element(by.id('bEdit')).click()
+    };
+
+    this.clickDelete = function () {
+        element(by.id('bDelete')).click()
+        browser.switchTo().alert().accept();
+    };
+
+    this.clickLog = function () {
+        element(by.css('.main-button')).click()
+    };
 };
-module.exports = CafePage;
+
+

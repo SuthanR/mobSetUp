@@ -10,17 +10,16 @@ exports.config = {
   },
 
   specs: [
-    'cucumber/features/add.feature',
-
+    'cucumber/features/employee.feature',
   ],
 
   allScriptsTimeout: 150000,
   getPageTimeout: 3000,
   defaultTimeoutInterval: 250000,
   cucumberOpts: {
-    require: 'cucumber/step_definitions/add_steps.js',
+    require: ['cucumber/step_definitions/*.js',],
     Format: 'pretty',
-   // tags: '@Check'
+  // tags: '@Check'
   }
 }
 

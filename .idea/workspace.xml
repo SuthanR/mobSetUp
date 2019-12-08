@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef04425a-d340-42cc-9515-374de64a6f52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cafe/cucumber/step_definitions/employee_steps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe/cucumber/features/add.feature" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/cucumber/features/add.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/cucumber/features/add.feature" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/cucumber/features/employee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/cucumber/page_objects/employee_page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cafe/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/cafe/protractor.conf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,42 +23,45 @@
     <session id="338672212">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="feature" value="2" />
-          <entry key="js" value="6" />
+          <entry key="feature" value="5" />
+          <entry key="js" value="41" />
           <entry key="json" value="2" />
           <entry key="md" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Cucumber" value="2" />
+          <entry key="Cucumber" value="5" />
           <entry key="JSON" value="2" />
-          <entry key="JavaScript" value="6" />
+          <entry key="JavaScript" value="41" />
           <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="531" />
-          <entry key="js" value="302" />
+          <entry key="feature" value="1025" />
+          <entry key="js" value="1187" />
           <entry key="json" value="13" />
           <entry key="md" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="531" />
+          <entry key="Cucumber" value="1025" />
           <entry key="JSON" value="13" />
-          <entry key="JavaScript" value="302" />
+          <entry key="JavaScript" value="1187" />
           <entry key="PLAIN_TEXT" value="71" />
         </counts>
       </usages-collector>
@@ -73,28 +79,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cafe/cucumber/features/add.feature">
+        <entry file="file://$PROJECT_DIR$/cafe/cucumber/features/employee.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+            <state>
+              <caret column="71" selection-start-column="71" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js">
+        <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/employee_steps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="153">
+              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js">
+        <entry file="file://$PROJECT_DIR$/cafe/cucumber/page_objects/employee_page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cafe/protractor.conf.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -104,6 +119,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>calcu</find>
+      <find>selec</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,9 +132,16 @@
         <option value="$PROJECT_DIR$/cafe/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cafe/cucumber/step_definitions/my_steps.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/step_definitions/edit_steps.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/page_objects/edit_page.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/features/edit.feature" />
         <option value="$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js" />
-        <option value="$PROJECT_DIR$/cafe/cucumber/features/add.feature" />
         <option value="$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/features/add.feature" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/page_objects/employee_page.js" />
+        <option value="$PROJECT_DIR$/cafe/protractor.conf.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/step_definitions/employee_steps.js" />
+        <option value="$PROJECT_DIR$/cafe/cucumber/features/employee.feature" />
       </list>
     </option>
   </component>
@@ -201,6 +224,13 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Source\Mobiquity\mobTest\cafe\cucumber\step_definitions" />
+      <recent name="C:\Source\Mobiquity\mobTest\cafe\cucumber\page_objects" />
+      <recent name="C:\Source\Mobiquity\mobTest\cafe\cucumber\features" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -226,12 +256,25 @@
       <workItem from="1575696455193" duration="1763000" />
       <workItem from="1575698258784" duration="1784000" />
       <workItem from="1575700437992" duration="1791000" />
-      <workItem from="1575702301378" duration="1068000" />
+      <workItem from="1575702301378" duration="1144000" />
+      <workItem from="1575710675921" duration="1896000" />
+      <workItem from="1575712618543" duration="1789000" />
+      <workItem from="1575714593833" duration="1914000" />
+      <workItem from="1575716563000" duration="1787000" />
+      <workItem from="1575718376908" duration="2285000" />
+      <workItem from="1575720947166" duration="1599000" />
+      <workItem from="1575723217458" duration="974000" />
+      <workItem from="1575725039948" duration="1558000" />
+      <workItem from="1575726902031" duration="1708000" />
+      <workItem from="1575728722886" duration="1903000" />
+      <workItem from="1575730652034" duration="1793000" />
+      <workItem from="1575732643144" duration="311000" />
+      <workItem from="1575784265964" duration="982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6406000" />
+    <option name="totallyTimeSpent" value="26981000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -241,7 +284,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -275,8 +318,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/my_steps.js" />
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/page_objects/edit_page.js" />
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/edit_steps.js" />
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/features/edit.feature" />
     <entry file="file://$PROJECT_DIR$/cafe/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/page_objects/employee_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/employee_steps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cafe/package.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -285,24 +349,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/cucumber/page_objects/add_page.js">
+    <entry file="file://$PROJECT_DIR$/cafe/cucumber/features/employee.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/cucumber/step_definitions/add_steps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cafe/cucumber/features/add.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
+        <state>
+          <caret column="71" selection-start-column="71" selection-end-column="71" />
         </state>
       </provider>
     </entry>
