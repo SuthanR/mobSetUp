@@ -1,0 +1,34 @@
+Feature: As a user of the cafeTown I would like to add, edit and delete the employee details for further use.
+
+  Scenario: Add the employee
+  [32m√ Given The cafeTown page is open[39m
+  [32m√ When I enter the login details as Luke and Skywalker and click[39m
+  [32m√ When I click create to add the employee[39m
+  [32m√ And I enter the details of the employe as Mobi and Quity and 2019-12-12 and Mobi@gmail.com[39m
+  [32m√ Then I click add to save employee[39m
+
+  Scenario: Add the employee
+  [32m√ Given The cafeTown page is open[39m
+  [32m√ When I enter the login details as Luke and Skywalker and click[39m
+  [32m√ When I click create to add the employee[39m
+  [32m√ And I enter the details of the employe as Mobiqity and Qurty and 2019-12-20 and Mbi@gmail.com[39m
+  [32m√ Then I click add to save employee[39m
+
+  Scenario: Edit the employee
+  [32m√ Given The cafeTown page is open[39m
+  [32m√ When I enter the login details as Luke and Skywalker and click[39m
+  [32m√ When I select the employee[39m
+  [32m√ When I click edit to update the employee[39m
+  [32m√ And I update the email address of the employee as mmmmobi@gmail.com[39m
+  [32m√ Then I Update to save employee[39m
+
+  Scenario: Delete the employee
+  [32m√ Given The cafeTown page is open[39m
+  [32m√ When I enter the login details as Luke and Skywalker and click[39m
+  [32m√ When I select the employee[39m
+  [32m√ And I click delete and accept to delete the employee[39m
+  [32m√ Then I finally logout[39m
+
+4 scenarios ([32m4 passed[39m)
+21 steps ([32m21 passed[39m)
+0m00.042s

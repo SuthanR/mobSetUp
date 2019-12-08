@@ -6,8 +6,10 @@
     "chai": "^3.5.0",
     "chai-as-promised": "~6.0.0",
     "cucumber": "~1.3.3",
+    "cucumber-html-reporter": "^5.0.2",
     "protractor": "^5.4.0",
-    "protractor-cucumber-framework": "^3.1.2"
+    "protractor-cucumber-framework": "^3.1.2",
+    "protractor-multiple-cucumber-html-reporter-plugin": "^1.8.1"
   },
   "scripts": {
     "prestart-webdriver": "webdriver-manager update",
@@ -17,7 +19,6 @@
   "dependencies": {
     "chromedriver": "^2.41.0",
     "node-latest-version": "^1.0.16",
-    "npm": "^6.3.0",
-    "webdriverjs-retry": "^0.2.0"
+    "npm": "^6.3.0"
   }
 }

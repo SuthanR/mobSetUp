@@ -4,23 +4,32 @@ exports.config = {
   framework: 'custom',
   frameworkPath: require.resolve('protractor-cucumber-framework'),
   ignoreUncaughtExceptions: true,
-  capabilities: {
-    browserName: 'chrome',
+    specs: [
+        'cucumber/features/employee.feature',
+    ],
+    cucumberOpts: {
+        require: ['cucumber/step_definitions/*.js',],
+        format: "json:.dashboard/report.json",
+    },
+    capabilities: {
+        browserName: 'chrome',
 
-  },
+    },
+    plugins: [{
+        package: require.resolve('protractor-multiple-cucumber-html-reporter-plugin'),
+        options:{
+            automaticallyGenerateReport: true,
+            removeExistingJsonReportFile: true,
+            openReportInBrowser: true
+        }
+    }],
 
-  specs: [
-    'cucumber/features/employee.feature',
-  ],
 
-  allScriptsTimeout: 150000,
-  getPageTimeout: 3000,
-  defaultTimeoutInterval: 250000,
-  cucumberOpts: {
-    require: ['cucumber/step_definitions/*.js',],
-    Format: 'pretty',
-  // tags: '@Check'
-  }
+
+
+
+
+
 }
 
 

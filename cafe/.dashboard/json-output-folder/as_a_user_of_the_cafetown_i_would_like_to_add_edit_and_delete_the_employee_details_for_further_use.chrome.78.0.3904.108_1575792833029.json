@@ -1,0 +1,336 @@
+[
+  {
+    "elements": [
+      {
+        "id": "as-a-user-of-the-cafetown-i-would-like-to-add,-edit-and-delete-the-employee-details-for-further-use.;add-the-employee",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Add the employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The cafeTown page is open",
+            "result": {
+              "status": "passed",
+              "duration": 1218099
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the login details as Luke and Skywalker and click",
+            "result": {
+              "status": "passed",
+              "duration": 1640400
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click create to add the employee",
+            "result": {
+              "status": "passed",
+              "duration": 520300
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the details of the employe as Mobi and Quity and 2019-12-12 and Mobi@gmail.com",
+            "result": {
+              "status": "passed",
+              "duration": 1110301
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click add to save employee",
+            "result": {
+              "status": "passed",
+              "duration": 292101
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-user-of-the-cafetown-i-would-like-to-add,-edit-and-delete-the-employee-details-for-further-use.;add-the-employee",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Add the employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The cafeTown page is open",
+            "result": {
+              "status": "passed",
+              "duration": 733301
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the login details as Luke and Skywalker and click",
+            "result": {
+              "status": "passed",
+              "duration": 737500
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click create to add the employee",
+            "result": {
+              "status": "passed",
+              "duration": 422599
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:25"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I enter the details of the employe as Mobiqity and Qurty and 2019-12-20 and Mbi@gmail.com",
+            "result": {
+              "status": "passed",
+              "duration": 1068801
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I click add to save employee",
+            "result": {
+              "status": "passed",
+              "duration": 332899
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:38"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-user-of-the-cafetown-i-would-like-to-add,-edit-and-delete-the-employee-details-for-further-use.;edit-the-employee",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Edit the employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The cafeTown page is open",
+            "result": {
+              "status": "passed",
+              "duration": 3372801
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the login details as Luke and Skywalker and click",
+            "result": {
+              "status": "passed",
+              "duration": 1116600
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the employee",
+            "result": {
+              "status": "passed",
+              "duration": 942201
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click edit to update the employee",
+            "result": {
+              "status": "passed",
+              "duration": 370500
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:48"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I update the email address of the employee as mmmmobi@gmail.com",
+            "result": {
+              "status": "passed",
+              "duration": 641800
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:53"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I Update to save employee",
+            "result": {
+              "status": "passed",
+              "duration": 438999
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:58"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": "as-a-user-of-the-cafetown-i-would-like-to-add,-edit-and-delete-the-employee-details-for-further-use.;delete-the-employee",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Delete the employee",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The cafeTown page is open",
+            "result": {
+              "status": "passed",
+              "duration": 330299
+            },
+            "line": 4,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter the login details as Luke and Skywalker and click",
+            "result": {
+              "status": "passed",
+              "duration": 546500
+            },
+            "line": 5,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I select the employee",
+            "result": {
+              "status": "passed",
+              "duration": 285401
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click delete and accept to delete the employee",
+            "result": {
+              "status": "passed",
+              "duration": 675801
+            },
+            "line": 24,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I finally logout",
+            "result": {
+              "status": "passed",
+              "duration": 301800
+            },
+            "line": 25,
+            "match": {
+              "location": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\step_definitions\\employee_steps.js:68"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "as-a-user-of-the-cafetown-i-would-like-to-add,-edit-and-delete-the-employee-details-for-further-use.",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "As a user of the cafeTown I would like to add, edit and delete the employee details for further use.",
+    "tags": [],
+    "uri": "C:\\Source\\Mobiquity\\mobTest\\cafe\\cucumber\\features\\employee.feature",
+    "metadata": {
+      "browser": {
+        "name": "chrome",
+        "version": "78.0.3904.108"
+      },
+      "device": "",
+      "platform": {
+        "name": "",
+        "version": ""
+      }
+    }
+  }
+]
