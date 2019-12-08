@@ -9,7 +9,7 @@ exports.config = {
     ],
     cucumberOpts: {
         require: ['cucumber/step_definitions/*.js',],
-        format: "json:.dashboard/report.json",
+        //format: "json:.dashboard/report.json",
     },
     capabilities: {
         browserName: 'chrome',
@@ -23,13 +23,7 @@ exports.config = {
             openReportInBrowser: true
         }
     }],
-
-
-
-
-
-
-
+    // tags: '@Check'
 }
 
 

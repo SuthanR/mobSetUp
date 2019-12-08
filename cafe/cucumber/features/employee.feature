@@ -2,7 +2,7 @@ Feature: As a user of the cafeTown I would like to add, edit and delete the empl
 
   Background:
     Given The cafeTown page is open
-    When I enter the login details as Luke and Skywalker and click
+    When I enter the login details as Luke and Skywalker and click login
 
   Scenario Outline: Add the employee
     When I click create to add the employee
@@ -11,13 +11,14 @@ Feature: As a user of the cafeTown I would like to add, edit and delete the empl
     Examples:
       |  FirstName  |   LastName     |  StartDate   |    Email         |
       |  Mobi       |   Quity        |   2019-12-12 |  Mobi@gmail.com  |
-      |  Mobiqity   |   Qurty        |   2019-12-20 |  Mbi@gmail.com   |
+      |  Test1      |   Demo1        |   2019-12-20 |  test@gmail.com  |
+      |  Test2      |   Demo2        |   2019-12-31 |  demo@gmail.com  |
 
   Scenario: Edit the employee
     When I select the employee
     When I click edit to update the employee
-    And I update the email address of the employee as mmmmobi@gmail.com
-    Then I Update to save employee
+    And I update the email address of the employee as newmobi@gmail.com
+    Then I click update to save the employee
 
   Scenario: Delete the employee
     When I select the employee

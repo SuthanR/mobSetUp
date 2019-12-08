@@ -1,26 +1,26 @@
 const chai = require('chai').use(require('chai-as-promised'));
 const expect = chai.expect;
 browser.driver.manage().window().maximize();
+const cafePage = require("../page_objects/employee_page.js");
 
 module.exports = function() {
-
-    const cafePage = require("../page_objects/employee_page.js");
 
     this.World = function MyWorld() {
         this.page = new cafePage();
     };
 
-  this.Given(/^The cafeTown page is open$/, function (callback) {
+    this.Given(/^The cafeTown page is open$/, function (callback) {
     this.page.get();
     callback();
-  });
+   });
 
-    this.When(/^I enter the login details as (.*) and (.*) and click$/, function (username, password, callback) {
+    this.When(/^I enter the login details as (.*) and (.*) and click login$/, function (username, password, callback) {
     this.page.enterUser(username);
     this.page.enterPass(password);
     this.page.clickGo();
     callback();
-   });
+
+    });
 
     this.Given(/^I click create to add the employee$/, function (callback) {
         this.page.create();
@@ -55,7 +55,7 @@ module.exports = function() {
         callback();
     });
 
-    this.Given(/^I Update to save employee$/, function (callback) {
+    this.Given(/^I click update to save the employee$/, function (callback) {
         this.page.clickUpdate();
         callback();
     });

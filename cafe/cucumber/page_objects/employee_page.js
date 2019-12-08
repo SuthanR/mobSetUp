@@ -17,13 +17,12 @@ module.exports = function() {
 
     this.clickGo = function () {
         element(by.buttonText('Login')).click()
-        browser.sleep(300)
-
-    }
+    };
 
     this.create = function () {
         element(by.id('bAdd')).click()
     };
+
     this.enterFirst = function (value) {
         element(by.model('selectedEmployee.firstName')).sendKeys(value);
     };
@@ -39,7 +38,6 @@ module.exports = function() {
     this.enterEmail = function (value) {
         element(by.model('selectedEmployee.email')).clear();
         element(by.model('selectedEmployee.email')).sendKeys(value);
-
     };
 
     this.select = function() {
