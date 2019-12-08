@@ -12,9 +12,9 @@ lets you describe software’s behaviour without detailing implementation detail
 Set up :
  1. Install Node
  2. git clone https://github.com/SuthanR/mobTest.git
- 3. From your project root directory: npm install then check the respective version of modules installed
- 4. Go to the project location in terminal: webdriver-manager start
- 5. Go to project location in another terminal: protractor "yourConfig.js" / protractor protractor.conf.js
+ 3. From your project root directory(/cafe): npm install then check the respective version of modules installed
+ 4. Go to the project location in terminal(/cafe): webdriver-manager start
+ 5. Go to project location in another terminal(/cafe): protractor "yourConfig.js" / protractor protractor.conf.js
 
 Folder and config:
 
